@@ -9,7 +9,7 @@ function Transfer({ address, setBalance }) {
 
   async function transfer(evt) {
     evt.preventDefault();
-
+    
     try {
       const {
         data: { balance },
